@@ -7,7 +7,7 @@ pipeline {
 	//env.PATH = env.PATH + ";C:\\Windows\\System32"
     }
     environment {
-       env.PATH = env.PATH + ";c:\\Windows\\System32"
+       PATH = "C:\\WINDOWS\\SYSTEM32"
    }
 
     stages {
